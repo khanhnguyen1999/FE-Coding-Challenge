@@ -1,0 +1,47 @@
+.home, .sample {
+  margin: 20px;
+}
+
+.main-page {
+  &_container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0
+  }
+  &_optional {
+    display: flex;
+    border: 1px solid black;
+    &_consumer {
+      display: flex;
+      flex: auto;
+      flex-direction: column;
+      &-form {
+        width: 100%;
+        border-top: 1px solid black;
+        height: 300px;
+      }
+    }
+  }
+}
+
+.consumer-main-form {
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  &_value {
+    margin-right: 20px;
+    width: 200px
+  }
+}
+
+.consumer-optional {
+  width: 300px;
+  height: 500px;
+  border-right: 1px solid black;
+  padding: 20px;
+}
+
+.consumer-edit-form {
+  width: 400px
+}
